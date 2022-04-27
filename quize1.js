@@ -5,7 +5,7 @@ app.get("/chocolate", (req, res) => {
   console.log(req.query);
   res.send(`<h1>chocolate: ${amount}</h1>`);
 });
-const PORT = 3000;
+const PORT = 4000;
 app.listen(PORT, () => {
   console.log(`your app is runing on port:${PORT}`);
 });
